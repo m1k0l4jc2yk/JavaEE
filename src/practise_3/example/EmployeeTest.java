@@ -44,8 +44,7 @@ public class EmployeeTest {
         // Print out the staff
         mgr.printStaffDetails();
         System.out.println(); // Print a blank line as a separator
-        
-        // Attempt to remove a staff member
+
         if (mgr.removeEmployee(eng1)) System.out.println ("Success: removed eng1");
         System.out.println(); // Print a blank line as a separator
         
