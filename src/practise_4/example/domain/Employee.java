@@ -9,11 +9,13 @@ public class Employee {
     private String ssn;
     private double salary;
 
+
     public Employee(int empId, String name, String ssn, double salary) {
         this.empId = empId;
         this.name = name;
         this.ssn = ssn;
         this.salary = salary;
+
     }
 
     public int getEmpId() {
